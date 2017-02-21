@@ -8,7 +8,7 @@ int tamanho,i,j,palindromo;
 printf("Palavra: ");
 gets(palavra);
 tamanho = strlen(palavra);
-palindromo = 1;
+pla = 1;
 i=0;
 j=tamanho-1;
 while( (i<=j) && (palindromo==1) ){
